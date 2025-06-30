@@ -25,16 +25,27 @@ Esta aplicación implementa un sistema simple de SharedPreferences que permite:
 ## 💻 Uso
 
 1. **Guardar datos**: Ingresa tu nombre y presiona "Guardar"
+   
    ![guardar](Pantallas/guardar.png)
+   
 2. **Cargar datos**: Presiona "Cargar" para ver los datos guardados
+   
    ![cargar](Pantallas/CARGAR.png)
+   
 3. **Contador de veces al ingresar**: Se visualiza la cantidad de veces ingresada a la app y se puede resetear
+   
    ![contador](Pantallas/CARGAR.png)
+   
 4. **Limpiar datos**: Presiona "Limpiar Todo" para eliminar todas las preferencias
+ 
    ![limpiar](Pantallas/LIMPIAR.png)
+   
 5. **Ingresar usuario**: Ingresa nuevos datos del usuario para poder guardar
+ 
    ![ingresor](Pantallas/INGRESO.png)
+
 6. **Modo Oscuro**: Haz switch en el modo oscuro para tener una visualización más agradable
+ 
     ![mode](Pantallas/MODO_OSCURO.png)
    
 ## 📂 Estructura del Proyecto
