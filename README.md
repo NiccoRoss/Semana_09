@@ -7,7 +7,7 @@ Aplicación Android de ejemplo que demuestra el uso básico de SharedPreferences
 Esta aplicación implementa un sistema simple de SharedPreferences que permite:
 - Guardar y recuperar datos de usuario
 - Detectar la primera ejecución de la app
-- Limpiar todas las preferencias guardadas
+- Limpiar todas las preferencias guardadas, tales como el cambio en el modo de visualización "Modo Oscuro"
 
 ## 🚀 Características
 
@@ -22,25 +22,19 @@ Esta aplicación implementa un sistema simple de SharedPreferences que permite:
 - SDK mínimo: API 21 (Android 5.0)
 - SDK objetivo: API 34 (Android 14)
 - Kotlin 1.9.0
-
-## 🛠️ Instalación
-
-1. Clona el repositorio:
-```bash
-git clone https://github.com/GxJohan/app_s9.git
-```
-
-2. Abre el proyecto en Android Studio
-
-3. Sincroniza el proyecto con Gradle
-
-4. Ejecuta la aplicación en un emulador o dispositivo físico
-
 ## 💻 Uso
 
 1. **Guardar datos**: Ingresa tu nombre y presiona "Guardar"
-2. **Cargar datos**: Presiona "Cargar" para ver los datos guardados
-3. **Limpiar datos**: Presiona "Limpiar Todo" para eliminar todas las preferencias
+   
+3. **Cargar datos**: Presiona "Cargar" para ver los datos guardados
+   
+5. **Limpiar datos**: Presiona "Limpiar Todo" para eliminar todas las preferencias
+   
+7. **Contador de veces al ingresar**: Se visualiza la cantidad de veces ingresada a la app y se puede resetear
+
+8. **Ingresar usuario**: Ingresa nuevos datos del usuario para poder guardar
+   
+10. **Modo Oscuro**: Haz switch en el modo oscuro para tener una visualización más agradable
 
 ## 📂 Estructura del Proyecto
 
@@ -52,9 +46,11 @@ app_s9/
 │           ├── java/com/example/app_s9/
 │           │   ├── MainActivity.kt
 │           │   └── SharedPreferencesHelper.kt
+│           │   └── UserActivity.kt
 │           └── res/
 │               └── layout/
 │                   └── activity_main.xml
+│                   └── activity_user.xml
 └── SharedPreferences_Guide.md
 ```
 
@@ -62,14 +58,6 @@ app_s9/
 
 Para más detalles sobre la implementación y cómo extender la funcionalidad, consulta [SharedPreferences_Guide.md](SharedPreferences_Guide.md)
 
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
 
 ## 📄 Licencia
 
